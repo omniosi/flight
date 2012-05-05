@@ -1,0 +1,118 @@
+body{
+	color:#fff;
+	color: rgba(255,255,255,0.5);
+	font-family: arial, helvetica;
+	background:#000;
+	background: #000 url("../img/flightArt.jpg") 50% 0 no-repeat fixed;
+	text-shadow: 2px 2px 5px #000;
+}
+#story{
+	width:960px;
+	height: 600px;
+	overflow: hidden;
+	position: relative;
+	margin:0 auto;
+}
+h1{
+	padding: 0 35px 0 15px;
+	letter-spacing: 1px;
+	position:absolute;
+	color:#fff;
+}
+.legal{
+   vertical-align: text-bottom;
+   padding: 20px;
+   font-size: 11px;
+   letter-spacing: 1px;
+   position: absolute;
+   right:0;
+   bottom:0;
+}
+p{
+padding: 1em 2em;
+letter-spacing: 2px;
+font-size: /*20px*/ 1.25em;
+line-height: /*32px*/ 1.625em;
+float: left;
+}
+#paraOne,
+#paraTwo,
+#paraThree,
+#paraFour,
+#paraFive,
+#paraSix,
+#paraSeven,
+#paraEight,
+#paraNine,
+#paraTen,
+#paraEleven,
+#paraTwelve{
+	position:absolute;
+}
+#paraOne{
+	top: 300px;
+	left:0;
+}
+#paraTwo{
+	top:200px;
+	left:1000px;
+}
+#paraThree{
+	top:200px;
+	left:2000px;
+}
+#paraFour{
+	top:200px;
+	left:3000px;
+}
+#paraFive{
+	top:200px;
+	left:4000px;
+}
+#paraSix{
+	top:200px;
+	left:5000px;
+}
+#paraSeven{
+	top:200px;
+	left:6000px;
+}
+#paraEight{
+	top:1000px;
+	left:6000px;
+}
+#paraNine{
+	top:1800px;
+	left:6000px;
+}
+#paraTen{
+	top:2600px;
+	left:6000px;
+}
+#paraEleven{
+	top:2600px;
+	left:7000px;
+}
+#paraTwelve{
+	top:2600px;
+	left:8000px;
+}
+
+#paraNine:before{
+/*retore metrics*/
+padding:0;
+border:none;
+/*content*/
+content: attr(data-pullquote);
+/*pull out to the right, modular scale-based margins*/
+float:right;
+width: 320px;
+height: 320px;
+margin: 12px -140px 24px 36px;
+/*baseline correction*/
+position: relative;
+top: 5px;
+/*typography ( 30px line height equals 25% incremental leading )*/
+font-size: 23px;
+line-height: 30px;
+}
