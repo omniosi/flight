@@ -5,32 +5,38 @@ body{
 	background:#000;
 	background: #000 url("../img/flightArt.jpg") 50% 0 no-repeat fixed;
 	text-shadow: 2px 2px 5px #000;
+	margin:0;
+	padding:0;
+}
+#top{
+	position:absolute;
+	top:0;
+	left:0;
 }
 #story{
-	width:960px;
-	height: 600px;
-	overflow: hidden;
+	width:80%;
+	/*overflow: hidden;*/
 	position: relative;
 	margin:0 auto;
 }
 h1{
-	padding: 0 35px 0 15px;
-	letter-spacing: 1px;
-	position:absolute;
+	padding: 1em;
+	letter-spacing: 0.125em;
 	color:#fff;
+	margin:0;
 }
 .legal{
    vertical-align: text-bottom;
-   padding: 20px;
-   font-size: 11px;
-   letter-spacing: 1px;
+   padding: 2em;
+   font-size: 0.625em;
+   letter-spacing: 0.125em;
    position: absolute;
    right:0;
    bottom:0;
 }
 p{
-padding: 1em 2em;
-letter-spacing: 2px;
+padding: 1.25em 2em;
+letter-spacing: 0.125em;
 font-size: /*20px*/ 1.25em;
 line-height: /*32px*/ 1.625em;
 float: left;
@@ -48,6 +54,7 @@ float: left;
 #paraEleven,
 #paraTwelve{
 	position:absolute;
+	width:80%;
 }
 #paraOne{
 	top: 300px;
@@ -55,47 +62,47 @@ float: left;
 }
 #paraTwo{
 	top:200px;
-	left:1000px;
+	left:2000px;
 }
 #paraThree{
 	top:200px;
-	left:2000px;
+	left:4000px;
 }
 #paraFour{
 	top:200px;
-	left:3000px;
+	left:6000px;
 }
 #paraFive{
 	top:200px;
-	left:4000px;
+	left:8000px;
 }
 #paraSix{
 	top:200px;
-	left:5000px;
+	left:10000px;
 }
 #paraSeven{
 	top:200px;
-	left:6000px;
+	left:12000px;
 }
 #paraEight{
 	top:1000px;
-	left:6000px;
+	left:14000px;
 }
 #paraNine{
 	top:1800px;
-	left:6000px;
+	left:14000px;
 }
 #paraTen{
 	top:2600px;
-	left:6000px;
+	left:14000px;
 }
 #paraEleven{
 	top:2600px;
-	left:7000px;
+	left:16000px;
 }
 #paraTwelve{
 	top:2600px;
-	left:8000px;
+	left:18000px;
 }
 
 #paraNine:before{
