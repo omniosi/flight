@@ -40,6 +40,7 @@ letter-spacing: 0.125em;
 font-size: /*20px*/ 1.25em;
 line-height: /*32px*/ 1.625em;
 float: left;
+margin: 0;
 }
 #paraOne,
 #paraTwo,
@@ -54,7 +55,7 @@ float: left;
 #paraEleven,
 #paraTwelve{
 	position:absolute;
-	width:80%;
+	width:auto;
 }
 #paraOne{
 	top: 300px;
@@ -77,7 +78,7 @@ float: left;
 	left:8000px;
 }
 #paraSix{
-	top:200px;
+	top:0px;
 	left:10000px;
 }
 #paraSeven{
