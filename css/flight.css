@@ -124,3 +124,27 @@ top: 5px;
 font-size: 23px;
 line-height: 30px;
 }
+.navLeft,
+.navRight{
+	position: absolute;
+	background: rgba(255,255,255,.25);
+	color:#000;
+	text-align: center;
+	text-decoration: none;
+	padding:4em 1.5em;
+	top:250px;
+}
+.navLeft{
+	left:0px;
+}
+.navRight{
+	right:0;
+}
+.navLeft:hover,
+.navRight:hover{
+	background: rgba(255,255,255,.75);
+	color:#000;
+	text-align: center;
+	text-decoration: none;
+	padding:4em 1.5em;
+}
